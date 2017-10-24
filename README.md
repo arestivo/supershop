@@ -60,8 +60,18 @@ Started session:
   * Created folder includes
   * Added includes/init.php
   * Added includes/session.php
-
   * Pages now include includes/init.php instead of database/connection.php
+
+## [Step 7](https://github.com/arestivo/supershop/tree/step7)
+
+Added shopping cart:
+
+  * Added action_add_to_cart.php
+  * Created getCartSize and addToCart in includes/session.php
+  * Used getCartSize in templates/common/header.php
+  * Created getCartProducts in database/product.php
+  * Added list_cart.php
+  * Added templates/product/list_cart.php
 
 
 

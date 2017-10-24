@@ -16,7 +16,7 @@
       <div id="info">
         <img src="images/site/logo.svg">
         <h1><a href="index.php">Ultra Shop</a></h1>
-        <a href="list_cart.php"><i class="fa fa-shopping-cart"></i>(0)</a>
+        <a href="list_cart.php"><i class="fa fa-shopping-cart"></i>(<?=getCartSize()?>)</a>
       </div>
       <div id="user">
         <form action="action_login.php" method="post">

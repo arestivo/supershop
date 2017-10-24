@@ -20,4 +20,22 @@
     return $stmt->fetch();
   }
 
+  function getCartProducts() {
+    global $dbh;
+
+    $products = array();
+
+    if (isset($_SESSION['cart'])) {
+        foreach ($_SESSION['cart'] as $id => $qty) {
+          $product = getProductById($id);
+          if ($product !== false) {
+            $product['qty'] = $qty;
+            $products[] = $product;
+          }
+        }
+    }
+
+    return $products;
+  }
+
 ?>
