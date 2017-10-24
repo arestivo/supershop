@@ -12,6 +12,11 @@ CREATE TABLE product (
   cat_id INTEGER REFERENCES category NOT NULL
 );
 
+CREATE TABLE user (
+  usr_username VARCHAR PRIMARY KEY,
+  usr_password VARCHAR NOT NULL
+);
+
 INSERT INTO category VALUES (NULL, 'Books');
 INSERT INTO category VALUES (NULL, 'Clothing');
 INSERT INTO category VALUES (NULL, 'Electronics');
@@ -51,3 +56,5 @@ INSERT INTO product VALUES (NULL,
   NULL,
   5
 );
+
+INSERT INTO user VALUES('john', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220');

@@ -22,4 +22,8 @@
     $_SESSION['cart'][$id]++;
   }
 
+  function setCurrentUser($username) {
+    $_SESSION['username'] = $username;
+  }
+
 ?>
