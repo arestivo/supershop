@@ -1,5 +1,6 @@
 <?php
-  include_once('database/connection.php');
+  include_once('includes/init.php');
+
   include_once('database/category.php');
   include_once('database/product.php');
 

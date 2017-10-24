@@ -53,3 +53,15 @@ Products are now listed from the database:
   * Used getAllProducts in index.php
   * Updated templates/product/list_products.php
 
+## [Step 6](https://github.com/arestivo/supershop/tree/step6)
+
+Started session:
+
+  * Created folder includes
+  * Added includes/init.php
+  * Added includes/session.php
+
+  * Pages now include includes/init.php instead of database/connection.php
+
+
+
