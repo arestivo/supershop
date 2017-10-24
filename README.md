@@ -44,3 +44,12 @@ Categories are now listed from the database:
   * Added database/category.php
   * Used getAllCategories in index.php
   * Updated templates/category/list_categories.php
+
+## [Step 5](https://github.com/arestivo/supershop/tree/step5)
+
+Products are now listed from the database:
+
+  * Added database/product.php
+  * Used getAllProducts in index.php
+  * Updated templates/product/list_products.php
+
