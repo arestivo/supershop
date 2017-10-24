@@ -18,16 +18,7 @@
         <h1><a href="index.php">Ultra Shop</a></h1>
         <a href="list_cart.php"><i class="fa fa-shopping-cart"></i>(<?=getCartSize()?>)</a>
       </div>
-      <div id="user">
-        <form action="action_login.php" method="post">
-          <input type="text" placeholder="username" name="username">
-          <input type="password" placeholder="password" name="password">
-          <div>
-            <input type="submit" value="Login">
-            <a href="register.php">Register</a>
-          </div>
-        </form>
-      </div>
+      <?php include_once('templates/common/user.php'); ?>
     </header>
 
     <nav id="menu">
