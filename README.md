@@ -37,3 +37,10 @@ Created the database:
   * Added images for 3 more products in images/products
   * Included database/connection.php in index.php
 
+## [Step 4](https://github.com/arestivo/supershop/tree/step4)
+
+Categories are now listed from the database:
+
+  * Added database/category.php
+  * Used getAllCategories in index.php
+  * Updated templates/category/list_categories.php
