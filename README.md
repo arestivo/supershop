@@ -25,3 +25,15 @@ Organize the HTML code into separate template files:
   * Added templates/product/list_products.php
   * Added templates/common/footer.php
   * Moved code from index.php to new files
+
+## [Step 3](https://github.com/arestivo/supershop/tree/step3)
+
+Created the database:
+
+  * Created folder database
+  * Added database/connection.php
+  * Added database/shop.sql
+  * Generated database/shop.db using sqlite3
+  * Added images for 3 more products in images/products
+  * Included database/connection.php in index.php
+
