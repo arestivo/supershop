@@ -44,3 +44,55 @@ Categories are now listed from the database:
   * Added database/category.php
   * Used getAllCategories in index.php
   * Updated templates/category/list_categories.php
+
+## [Step 5](https://github.com/arestivo/supershop/tree/step5)
+
+Products are now listed from the database:
+
+  * Added database/product.php
+  * Used getAllProducts in index.php
+  * Updated templates/product/list_products.php
+
+## [Step 6](https://github.com/arestivo/supershop/tree/step6)
+
+Started session:
+
+  * Created folder includes
+  * Added includes/init.php
+  * Added includes/session.php
+  * Pages now include includes/init.php instead of database/connection.php
+
+## [Step 7](https://github.com/arestivo/supershop/tree/step7)
+
+Added shopping cart:
+
+  * Added action_add_to_cart.php
+  * Created getCartSize and addToCart in includes/session.php
+  * Used getCartSize in templates/common/header.php
+  * Created getCartProducts in database/product.php
+  * Added list_cart.php
+  * Added templates/product/list_cart.php
+
+
+## [Step 8](https://github.com/arestivo/supershop/tree/step8)
+
+Added login and logout:
+
+  * Added user table in database/shop.sql
+  * Regenerated database/shop.db
+  * Added database/user.php
+  * Created setCurrentUser in includes/session.php
+  * Added templates/common/user.php
+  * Included templates/common/user.php in templates/common/header.php
+  * Added action_login.php
+  * Added action_logout.php
+
+## [Step 9](https://github.com/arestivo/supershop/tree/step9)
+
+Added error and success messages:
+
+  * Added messages section to templates/common/header.php
+  * Added getErrorMessages, getSuccessMessages and clearMessages to includes/session.php
+  * Added messages in action_login.php, action_logout.php and action_add_to_cart.php
+
+
