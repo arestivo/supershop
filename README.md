@@ -73,6 +73,20 @@ Added shopping cart:
   * Added list_cart.php
   * Added templates/product/list_cart.php
 
+
+## [Step 8](https://github.com/arestivo/supershop/tree/step8)
+
+Added login and logout:
+
+  * Added user table in database/shop.sql
+  * Regenerated database/shop.db
+  * Added database/user.php
+  * Created setCurrentUser in includes/session.php
+  * Added templates/common/user.php
+  * Included templates/common/user.php in templates/common/header.php
+  * Added action_login.php
+  * Added action_logout.php
+
 ## [Step 9](https://github.com/arestivo/supershop/tree/step9)
 
 Added error and success messages:
