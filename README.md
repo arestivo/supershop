@@ -53,3 +53,10 @@ Products are now listed from the database:
   * Used getAllProducts in index.php
   * Updated templates/product/list_products.php
 
+## [Step 9](https://github.com/arestivo/supershop/tree/step9)
+
+Added error and success messages:
+
+  * Added messages section to templates/common/header.php
+  * Added getErrorMessages, getSuccessMessages and clearMessages to includes/session.php
+  * Added messages in action_login.php, action_logout.php and action_add_to_cart.php
