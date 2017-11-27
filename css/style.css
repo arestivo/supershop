@@ -6,6 +6,7 @@ body {
   grid-template-areas:
     "header     header"
     "menu       menu"
+    "categories messages"
     "categories main"
     "footer     footer";
 }
@@ -267,10 +268,32 @@ footer {
   #menu {
     font-size: 0.8em;
   }
+
+  #messages {
+    grid-column: 1/ span 2;
+  }
 }
 
 @media (max-width: 520px) {
   #products {
     grid-template-columns: 1fr;
   }
+}
+
+#messages article {
+  text-align: center;
+  color: white;
+}
+
+#messages article p {
+  margin: 2px;
+  padding: 0.5em;
+}
+
+#messages article.error {
+  background-color: #F66;
+}
+
+#messages article.success {
+  background-color: #6D6;
 }
