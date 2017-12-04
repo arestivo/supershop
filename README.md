@@ -94,3 +94,13 @@ Added error and success messages:
   * Added messages section to templates/common/header.php
   * Added getErrorMessages, getSuccessMessages and clearMessages to includes/session.php
   * Added messages in action_login.php, action_logout.php and action_add_to_cart.php
+
+## [Step 10](https://github.com/arestivo/supershop/tree/step10)
+
+Added registration form with javascript validation:
+
+  * Added register.php
+  * Added templates/user/register.php
+  * Modified css/style.css to include register form styles
+  * Added javascript/script.js with register form validation
+  * Included javascript in templates/common/header.php
