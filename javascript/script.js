@@ -10,7 +10,7 @@ let register = document.querySelector('#register form');
 register.addEventListener('submit', validateRegister, false);
 
 function validateUsername() {
-  if (!/^[a-zA-Z]{3,}$/.test(this.value))
+  if (!/^[a-z]{3,}$/.test(this.value))
     this.classList.add('invalid');
   else
     this.classList.remove('invalid');
